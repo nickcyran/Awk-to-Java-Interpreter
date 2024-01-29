@@ -1,0 +1,8 @@
+Nick,Cyran,3.6
+Tom,Belt,1.2
+Avid,Grelt,4.0
+Carol,Maxwell,3.4
+Dave,Wong,2.1
+Vinny,Principazzo,1.0
+Kevin,Fern,3.9
+Wendy, Abraham,4.0
