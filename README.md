@@ -8,5 +8,5 @@ The interpreter then traverses the AST running the the AWK code as Java.
 
 ## How to Use?
 The Main method accepts 1-2 additional arguments:
-  1) AWK code file
-  2) The file the AWK code references (if any)
+  1)  AWK code file
+  2)  The file the AWK code references (if any)
