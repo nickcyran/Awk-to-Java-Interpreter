@@ -1,9 +1,12 @@
 # Awk-to-Java-Interpreter
-Java-based program designed to interpret AWK programs as Java code. This tool utilizes lexical analysis and abstract syntax trees to seamlessly execute AWK programs within the Java environment.
+Java-based program designed to interpret AWK programs as Java code. 
+This tool utilizes lexical analysis and abstract syntax trees (AST) to seamlessly execute AWK programs within the Java environment.
+
+This program takes in an AWK file then lexes it to return a list of tokens.
+After which it parses the list of tokens, creating an AST.
+The interpreter then traverses the AST running the the AWK code as Java.
 
 ## How to Use?
-Main takes command prompt arguments 1) awk file, 2) relevant text file (if any)
-
-This program takes in an awk file, lexes it to return a list of tokens.
-Then parses the list of tokens, creating an AST.
-Th interpreter then traverses the AST running the awk program in java.
+The Main method accepts 1-2 additional arguments:
+  1) AWK code file
+  2) The file the AWK code references (if any)
